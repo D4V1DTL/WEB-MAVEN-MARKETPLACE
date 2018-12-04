@@ -23,9 +23,7 @@ public class WelcomeController {
 		return "categories";
 	}
 	
-	@RequestMapping("public")
-	public String puclic() {
-		return "puclic";
-	}
-
+	
+	
+	
 }
