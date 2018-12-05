@@ -24,11 +24,11 @@
 			<div class="logo"><a href="#"><img src="webbot/images/logo.jpeg" height= "70px" width= "130px" alt="" /></a></div>
 			<nav class="main_nav">
 				<ul>
-					<li><a href="index.html">home</a></li>
-					<li><a href="categories.html">clothes</a></li>
-					<li><a href="categories.html">accessories</a></li>
-					<li><a href="categories.html">lingerie</a></li>
-					<li><a href="contact.html">contact</a></li>
+					<li><a href="/">home</a></li>
+					<li><a href="categories">clothes</a></li>
+					<li><a href="product">accessories</a></li>
+					<li><a href="cart">lingerie</a></li>
+					<li><a href="contact">contact</a></li>
 				</ul>
 			</nav>
 			<div class="header_content ml-auto">
@@ -87,11 +87,11 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.html">home</a></li>
-				<li class="menu_mm"><a href="#">clothes</a></li>
-				<li class="menu_mm"><a href="#">accessories</a></li>
-				<li class="menu_mm"><a href="#">lingerie</a></li>
-				<li class="menu_mm"><a href="#">contact</a></li>
+				<li class="menu_mm"><a href="/">home</a></li>
+				<li class="menu_mm"><a href="categories">clothes</a></li>
+				<li class="menu_mm"><a href="product">accessories</a></li>
+				<li class="menu_mm"><a href="cart">lingerie</a></li>
+				<li class="menu_mm"><a href="contact">contact</a></li>
 			</ul>
 		</nav>
 	</div>

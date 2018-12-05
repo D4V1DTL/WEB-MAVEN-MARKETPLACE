@@ -26,10 +26,10 @@
 
 	<header class="header">
 		<div class="header_inner d-flex flex-row align-items-center justify-content-start">
-			<div ><a href="#"><img src="images/logo.jpeg" height= 70px width= 110px alt=""></a></div>
+			<div ><a href="/"><img src="images/logo.jpeg" height= 70px width= 110px alt=""></a></div>
 			<nav class="main_nav">
 				<ul>
-					<li><a href="#">home</a></li>
+					<li><a href="/">home</a></li>
 					<li><a href="categories">clothes</a></li>
 					<li><a href="categories">accessories</a></li>
 					<li><a href="categories">lingerie</a></li>
