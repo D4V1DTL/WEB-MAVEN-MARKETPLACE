@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
-<html lang="en">
+<html lang="es">
 <head>
-<title>Wish</title>
+<title>JADYD</title>
 <meta http-equiv="Content-Type" content="text/html; charset= UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Wish shop project">
@@ -29,11 +29,11 @@
 			<div ><a href="/"><img src="images/logo.jpeg" height= 70px width= 110px alt=""></a></div>
 			<nav class="main_nav">
 				<ul>
-					<li><a href="/">home</a></li>
-					<li><a href="categories">clothes</a></li>
-					<li><a href="categories">accessories</a></li>
-					<li><a href="categories">lingerie</a></li>
-					<li><a href="contact">contact</a></li>
+					<li><a href="/">Inicio</a></li>
+					<li><a href="categories">Categorias</a></li>
+					<li><a href="product">Producto</a></li>
+					<li><a href="cart">Carrito</a></li>
+					<li><a href="contact">Contacto</a></li>
 				</ul>
 			</nav>
 			<div class="header_content ml-auto">
@@ -83,7 +83,7 @@
 
 	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
 		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
-		<div class="logo menu_mm"><a href="#">Wish</a></div>
+		<div class="logo menu_mm"><a href="/">JADYD</a></div>
 		<div class="search">
 			<form action="#">
 				<input type="search" class="search_input menu_mm" required="required">
@@ -92,11 +92,11 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="#">home</a></li>
-				<li class="menu_mm"><a href="#">clothes</a></li>
-				<li class="menu_mm"><a href="#">accessories</a></li>
-				<li class="menu_mm"><a href="#">lingerie</a></li>
-				<li class="menu_mm"><a href="#">contact</a></li>
+				<li class="menu_mm"><a href="/">Inicio</a></li>
+				<li class="menu_mm"><a href="categories">Categorias</a></li>
+				<li class="menu_mm"><a href="product">Producto</a></li>
+				<li class="menu_mm"><a href="cart">Carrito</a></li>
+				<li class="menu_mm"><a href="contact">Contacto</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -115,8 +115,8 @@
 					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
 					<div class="home_slider_content">
 						<div class="home_slider_content_inner">
-							<div class="home_slider_subtitle">Promo Prices</div>
-							<div class="home_slider_title">New Collection</div>
+							<div class="home_slider_subtitle">Precios de promocion</div>
+							<div class="home_slider_title">Nueva Colección</div>
 						</div>	
 					</div>
 				</div>
@@ -126,8 +126,8 @@
 					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
 					<div class="home_slider_content">
 						<div class="home_slider_content_inner">
-							<div class="home_slider_subtitle">Promo Prices</div>
-							<div class="home_slider_title">New Collection</div>
+							<div class="home_slider_subtitle">Precios de promocion</div>
+							<div class="home_slider_title">Nueva Colección</div>
 						</div>	
 					</div>
 				</div>
@@ -137,8 +137,8 @@
 					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
 					<div class="home_slider_content">
 						<div class="home_slider_content_inner">
-							<div class="home_slider_subtitle">Promo Prices</div>
-							<div class="home_slider_title">New Collection</div>
+							<div class="home_slider_subtitle">Precios de promocion</div>
+							<div class="home_slider_title">Nueva Colección</div>
 						</div>	
 					</div>
 				</div>
@@ -176,8 +176,8 @@
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container text-center">
-						<div class="section_subtitle">only the best</div>
-						<div class="section_title">promo prices</div>
+						<div class="section_subtitle">Solo lo mejor</div>
+						<div class="section_title">Precios de Pomoción</div>
 					</div>
 				</div>
 			</div>
@@ -189,11 +189,11 @@
 						<div class="promo_image">
 							<img src="images/promo_1.jpg" alt="">
 							<div class="promo_content promo_content_1">
-								<div class="promo_title">-30% off</div>
-								<div class="promo_subtitle">on all bags</div>
+								<div class="promo_title">-30% de descuento</div>
+								<div class="promo_subtitle">En zapatos</div>
 							</div>
 						</div>
-						<div class="promo_link"><a href="#">Shop Now</a></div>
+						<div class="promo_link"><a href="#">Compra Ahora</a></div>
 					</div>
 				</div>
 
@@ -203,11 +203,11 @@
 						<div class="promo_image">
 							<img src="images/promo_2.jpg" alt="">
 							<div class="promo_content promo_content_2">
-								<div class="promo_title">-30% off</div>
-								<div class="promo_subtitle">coats & jackets</div>
+								<div class="promo_title">-30% de descuento</div>
+								<div class="promo_subtitle">Botas y Botines</div>
 							</div>
 						</div>
-						<div class="promo_link"><a href="#">Shop Now</a></div>
+						<div class="promo_link"><a href="#">Compra Ahora</a></div>
 					</div>
 				</div>
 
@@ -217,11 +217,11 @@
 						<div class="promo_image">
 							<img src="images/promo_3.jpg" alt="">
 							<div class="promo_content promo_content_3">
-								<div class="promo_title">-25% off</div>
-								<div class="promo_subtitle">on Sandals</div>
+								<div class="promo_title">-25% de descuento</div>
+								<div class="promo_subtitle">En sandalias</div>
 							</div>
 						</div>
-						<div class="promo_link"><a href="#">Shop Now</a></div>
+						<div class="promo_link"><a href="#">Compra Ahora</a></div>
 					</div>
 				</div>
 
@@ -236,8 +236,8 @@
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container text-center">
-						<div class="section_subtitle">only the best</div>
-						<div class="section_title">new arrivals</div>
+						<div class="section_subtitle">Solo lo mejor</div>
+						<div class="section_title">Nuevas Tendencias</div>
 					</div>
 				</div>
 			</div>
@@ -258,8 +258,8 @@
 						</div>
 						<div class="product_content clearfix">
 							<div class="product_info">
-								<div class="product_name"><a href="product.jsp">Woman's Long Dress</a></div>
-								<div class="product_price">$45.00</div>
+								<div class="product_name"><a href="product.jsp">Sandalias de Mujer</a></div>
+								<div class="product_price">S/.45.00</div>
 							</div>
 							<div class="product_options">
 								<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
@@ -284,8 +284,8 @@
 						</div>
 						<div class="product_content clearfix">
 							<div class="product_info">
-								<div class="product_name"><a href="product.jsp">2 Piece Swimsuit</a></div>
-								<div class="product_price">$35.00</div>
+								<div class="product_name"><a href="product.jsp">Botas</a></div>
+								<div class="product_price">S/.35.00</div>
 							</div>
 							<div class="product_options">
 								<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
@@ -310,8 +310,8 @@
 						</div>
 						<div class="product_content clearfix">
 							<div class="product_info">
-								<div class="product_name"><a href="product.jsp">Man Blue Jacket</a></div>
-								<div class="product_price">$145.00</div>
+								<div class="product_name"><a href="product.jsp">Zapatos Hombre</a></div>
+								<div class="product_price">S/.145.00</div>
 							</div>
 							<div class="product_options">
 								<div class="product_buy product_option"><img src="images/shopping-bag-white.svg" alt=""></div>
@@ -331,10 +331,10 @@
 		<div class="extra_promo extra_promo_1">
 			<div class="extra_promo_image" style="background-image:url(images/extra_1.jpg)"></div>
 			<div class="extra_1_content d-flex flex-column align-items-center justify-content-center text-center">
-				<div class="extra_1_price">30%<span>off</span></div>
-				<div class="extra_1_title">On all shoes</div>
-				<div class="extra_1_text">*Integer ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra.</div>
-				<div class="button extra_1_button"><a href="checkout.jsp">check out</a></div>
+				<div class="extra_1_price">30%<span>Descuento</span></div>
+				<div class="extra_1_title">En todos los zapatos</div>
+				<div class="extra_1_text">Zapatos de otoño invierno</div>
+				<div class="button extra_1_button"><a href="checkout.jsp">Mas info</a></div>
 			</div>
 		</div>
 		<div class="extra_promo extra_promo_2">
@@ -345,8 +345,8 @@
 					<div class="extra_2_top">Mix</div>
 					<div class="extra_2_bottom">Match</div>
 				</div>
-				<div class="extra_2_text">*Integer ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra.</div>
-				<div class="button extra_2_button"><a href="checkout.jsp">check out</a></div>
+				<div class="extra_2_text">Encuentra tu calzado ideal aqui</div>
+				<div class="button extra_2_button"><a href="checkout.jsp">mas info</a></div>
 			</div>
 		</div>
 	</div>
@@ -360,13 +360,13 @@
 				<div class="col">
 					<div class="gallery_title text-center">
 						<ul>
-							<li><a href="#">#wish</a></li>
-							<li><a href="#">#wishinstagram</a></li>
-							<li><a href="#">#wishgirl</a></li>
+							<li><a href="#">#JADYD</a></li>
+							<li><a href="#">#JADYD_PERU_INSTAGRAM</a></li>
+							<li><a href="#">#Jadyd_girl</a></li>
 						</ul>
 					</div>
-					<div class="gallery_text text-center">*Integer ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra.</div>
-					<div class="button gallery_button"><a href="#">submit</a></div>
+					<div class="gallery_text text-center">Comparte tus compras en todas tus redes sociales</div>
+					<div class="button gallery_button"><a href="#">Subir</a></div>
 				</div>
 			</div>
 		</div>	
@@ -421,59 +421,9 @@
 		</div>	
 	</div>
 
-	<!-- Testimonials -->
 
 	<div class="testimonials">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="section_title_container text-center">
-						<div class="section_subtitle">only the best</div>
-						<div class="section_title">testimonials</div>
-					</div>
-				</div>
-			</div>
-			<div class="row test_slider_container">
-				<div class="col">
-
-					<!-- Testimonials Slider -->
-					<div class="owl-carousel owl-theme test_slider text-center">
-
-						<!-- Testimonial Item -->
-						<div class="owl-item">
-							<div class="test_text">âInteger ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra nec. Fusce vel lorem libero. Integer ex mi, facilisis sed nisi ut, vestibulum ultrices nulla. Aliquam egestas tempor leo.â</div>
-							<div class="test_content">
-								<div class="test_image"><img src="images/testimonials.jpg" alt=""></div>
-								<div class="test_name">Christinne Smith</div>
-								<div class="test_title">client</div>
-							</div>
-						</div>
-
-						<!-- Testimonial Item -->
-						<div class="owl-item">
-							<div class="test_text">âInteger ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra nec. Fusce vel lorem libero. Integer ex mi, facilisis sed nisi ut, vestibulum ultrices nulla. Aliquam egestas tempor leo.â</div>
-							<div class="test_content">
-								<div class="test_image"><img src="images/testimonials.jpg" alt=""></div>
-								<div class="test_name">Christinne Smith</div>
-								<div class="test_title">client</div>
-							</div>
-						</div>
-
-						<!-- Testimonial Item -->
-						<div class="owl-item">
-							<div class="test_text">âInteger ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra nec. Fusce vel lorem libero. Integer ex mi, facilisis sed nisi ut, vestibulum ultrices nulla. Aliquam egestas tempor leo.â</div>
-							<div class="test_content">
-								<div class="test_image"><img src="images/testimonials.jpg" alt=""></div>
-								<div class="test_name">Christinne Smith</div>
-								<div class="test_title">client</div>
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-		</div>
+		
 	</div>
 
 	<!-- Newsletter -->
@@ -485,8 +435,8 @@
 				<div class="row">
 					<div class="col">
 						<div class="section_title_container text-center">
-							<div class="section_subtitle">only the best</div>
-							<div class="section_title">subscribe for a 20% discount</div>
+							<div class="section_subtitle">Solo lo mejor</div>
+							<div class="section_title">Suscribete para obtener un 20% de descuento</div>
 						</div>
 					</div>
 				</div>
@@ -498,7 +448,7 @@
 								<button type="submit" class="newsletter_button">subscribe</button>
 							</form>
 						</div>
-						<div class="newsletter_text">Integer ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra nec. Fusce vel lorem libero. Integer ex mi, facilisis sed nisi ut, vestib ulum ultrices nulla. Aliquam egestas tempor leo.</div>
+						<div class="newsletter_text">Envianos tus comentarios</div>
 					</div>
 				</div>
 			</div>
@@ -511,28 +461,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<div class="footer_logo"><a href="#">Wish</a></div>
+					<div class="footer_logo"><a href="#">JADYD</a></div>
 					<nav class="footer_nav">
 						<ul>
-							<li><a href="index.jsp">home</a></li>
-							<li><a href="categories.jsp">clothes</a></li>
-							<li><a href="categories.jsp">accessories</a></li>
-							<li><a href="categories.jsp">lingerie</a></li>
-							<li><a href="contact.jsp">contact</a></li>
+							<li><a href="/">Inicio</a></li>
+							<li><a href="categories">Categorias</a></li>
+							<li><a href="product">Producto</a></li>
+							<li><a href="cart">Carrito</a></li>
+							<li><a href="contact">Contacto</a></li>
 						</ul>
 					</nav>
-					<div class="footer_social">
-						<ul>
-							<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						</ul>
+					
+					<div class="copyright">
 					</div>
-					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 				</div>
 			</div>
 		</div>
