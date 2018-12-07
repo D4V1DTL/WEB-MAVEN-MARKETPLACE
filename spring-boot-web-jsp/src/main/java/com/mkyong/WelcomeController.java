@@ -44,5 +44,10 @@ return "categories";
 	public String product() {
 		return "product";
 	}
+	@RequestMapping("checkout")
+	public String checkout() {
+		return "checkout";
+	}
+
 
 }

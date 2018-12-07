@@ -3,7 +3,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8" %>>
 <html lang="en">
 <head>
-<title>Product</title>
+<title>JADYD</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Wish shop project">
@@ -21,14 +21,14 @@
 
 	<header class="header">
 		<div class="header_inner d-flex flex-row align-items-center justify-content-start">
-			<div class="logo"><a href="#">Wish</a></div>
+			<div class="logo"><a href="/">JADYD</a></div>
 			<nav class="main_nav">
 				<ul>
-					<li><a href="/">home</a></li>
-					<li><a href="categories">clothes</a></li>
-					<li><a href="product">accessories</a></li>
-					<li><a href="cart">lingerie</a></li>
-					<li><a href="contact">contact</a></li>
+					<li><a href="/">Inicio</a></li>
+					<li><a href="categories">Categorias</a></li>
+					<li><a href="product">Producto</a></li>
+					<li><a href="cart">Carrito</a></li>
+					<li><a href="contact">Contacto</a></li>
 				</ul>
 			</nav>
 			<div class="header_content ml-auto">
@@ -78,7 +78,7 @@
 
 	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
 		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
-		<div class="logo menu_mm"><a href="#">Wish</a></div>
+		<div class="logo menu_mm"><a href="#">JADYD</a></div>
 		<div class="search">
 			<form action="#">
 				<input type="search" class="search_input menu_mm" required="required">
@@ -87,11 +87,11 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="/">home</a></li>
-				<li class="menu_mm"><a href="categories">clothes</a></li>
-				<li class="menu_mm"><a href="product">accessories</a></li>
-				<li class="menu_mm"><a href="cart">lingerie</a></li>
-				<li class="menu_mm"><a href="contact">contact</a></li>
+				<li class="menu_mm"><a href="/">Inicio</a></li>
+				<li class="menu_mm"><a href="categories">Categorias</a></li>
+				<li class="menu_mm"><a href="product">Producto</a></li>
+				<li class="menu_mm"><a href="cart">Carrito</a></li>
+				<li class="menu_mm"><a href="contact">Contacto</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -105,12 +105,12 @@
 				<div class="col">
 					<div class="home_container">
 						<div class="home_content">
-							<div class="home_title">Woman</div>
+							<div class="home_title">Mujer</div>
 							<div class="breadcrumbs">
 								<ul>
-									<li><a href="index.html">Home</a></li>
-									<li>Woman</li>
-									<li>Swimsuits</li>
+									<li><a href="/">Inicio</a></li>
+									<li>Mujer</li>
+									<li>Zapatillas</li>
 								</ul>
 							</div>
 						</div>
@@ -128,9 +128,9 @@
 				<div class="col">
 					<div class="current_page">
 						<ul>
-							<li><a href="categories.html">Woman's Fashion</a></li>
-							<li><a href="categories.html">Swimsuits</a></li>
-							<li>2 Piece Swimsuits</li>
+							<li><a href="categories">Moda femenina</a></li>
+							<li><a href="categories">Zapatos</a></li>
+							<li>Zapatillas</li>
 						</ul>
 					</div>
 				</div>
@@ -164,14 +164,14 @@
 						<!-- In Stock -->
 						<div class="in_stock_container">
 							<div class="in_stock in_stock_true"></div>
-							<span>in stock</span>
+							<span>en stock</span>
 						</div>
 						<div class="product_text">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis quam ipsum. Pellentesque consequat tellus non tortor tempus, id egestas elit iaculis. Proin eu dui porta, pretium metus vitae, pharetra odio. Sed ac mi commodo, pellentesque erat eget, accumsan justo. Etiam sed placerat felis. Proin non rutrum ligula.</p>
 						</div>
 						<!-- Product Quantity -->
 						<div class="product_quantity_container">
-							<span>Quantity</span>
+							<span>Cantidad</span>
 							<div class="product_quantity clearfix">
 								<input id="quantity_input" type="text" pattern="[0-9]*" value="1">
 								<div class="quantity_buttons">
@@ -182,109 +182,48 @@
 						</div>
 						<!-- Product Size -->
 						<div class="product_size_container">
-							<span>Size</span>
+							<span>Talla</span>
 							<div class="product_size">
 								<ul class="d-flex flex-row align-items-start justify-content-start">
 									<li>
 										<input type="radio" id="radio_1" name="product_radio" class="regular_radio radio_1">
-										<label for="radio_1">XS</label>
+										<label for="radio_1">35</label>
 									</li>
 									<li>
 										<input type="radio" id="radio_2" name="product_radio" class="regular_radio radio_2" checked>
-										<label for="radio_2">S</label>
+										<label for="radio_2">36</label>
 									</li>
 									<li>
 										<input type="radio" id="radio_3" name="product_radio" class="regular_radio radio_3">
-										<label for="radio_3">M</label>
+										<label for="radio_3">37</label>
 									</li>
 									<li>
 										<input type="radio" id="radio_4" name="product_radio" class="regular_radio radio_4">
-										<label for="radio_4">L</label>
+										<label for="radio_4">38</label>
 									</li>
 									<li>
 										<input type="radio" id="radio_5" name="product_radio" class="regular_radio radio_5">
-										<label for="radio_5">XL</label>
+										<label for="radio_5">39</label>
 									</li>
 								</ul>
 							</div>
-							<div class="button cart_button"><a href="#">add to cart</a></div>
+							<div class="button cart_button"><a href="#">agregar</a></div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<!-- Reviews -->
+		
 
 			<div class="row">
 				<div class="col">
 					<div class="reviews">
-						<div class="reviews_title">reviews</div>
-						<div class="reviews_container">
-							<ul>
-								<!-- Review -->
-								<li class=" review clearfix">
-									<div class="review_image"><img src="images/review_1.jpg" alt=""></div>
-									<div class="review_content">
-										<div class="review_name"><a href="#">Maria Smith</a></div>
-										<div class="review_date">Nov 29, 2017</div>
-										<div class="rating rating_4 review_rating" data-rating="4">
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-										</div>
-										<div class="review_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis quam ipsum. Pellentesque consequat tellus non tortor tempus, id egestas elit iaculis. Proin eu dui porta, pretium metus vitae, pharetra odio. Sed ac mi commodo, pellentesque erat eget, accumsan justo. Etiam sed placerat felis. Proin non rutrum ligula. </p>
-										</div>
-									</div>
-								</li>
-								<!-- Review -->
-								<li class=" review clearfix">
-									<div class="review_image"><img src="images/review_2.jpg" alt=""></div>
-									<div class="review_content">
-										<div class="review_name"><a href="#">Maria Smith</a></div>
-										<div class="review_date">Nov 29, 2017</div>
-										<div class="rating rating_4 review_rating" data-rating="4">
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-										</div>
-										<div class="review_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis quam ipsum. Pellentesque consequat tellus non tortor tempus, id egestas elit iaculis. Proin eu dui porta, pretium metus vitae, pharetra odio. Sed ac mi commodo, pellentesque erat eget, accumsan justo. Etiam sed placerat felis. Proin non rutrum ligula. </p>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
+						
 					</div>
 				</div>
 			</div>
 
-			<!-- Leave a Review -->
-
-			<div class="row">
-				<div class="col">
-					<div class="review_form_container">
-						<div class="review_form_title">leave a review</div>
-						<div class="review_form_content">
-							<form action="#" id="review_form" class="review_form">
-								<div class="d-flex flex-md-row flex-column align-items-start justify-content-between">
-									<input type="text" class="review_form_input" placeholder="Name" required="required">
-									<input type="email" class="review_form_input" placeholder="E-mail" required="required">
-									<input type="text" class="review_form_input" placeholder="Subject">
-								</div>
-								<textarea class="review_form_text" name="review_form_text" placeholder="Message"></textarea>
-								<button type="submit" class="review_form_button">leave a review</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>		
-	</div>
+			
 
 	<!-- Newsletter -->
 
@@ -295,8 +234,8 @@
 				<div class="row">
 					<div class="col">
 						<div class="section_title_container text-center">
-							<div class="section_subtitle">only the best</div>
-							<div class="section_title">subscribe for a 20% discount</div>
+							<div class="section_subtitle">Solo lo mejor</div>
+							<div class="section_title">Suscribete para obtener un 20% de descuento</div>
 						</div>
 					</div>
 				</div>
@@ -308,7 +247,7 @@
 								<button type="submit" class="newsletter_button">subscribe</button>
 							</form>
 						</div>
-						<div class="newsletter_text">Integer ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra nec. Fusce vel lorem libero. Integer ex mi, facilisis sed nisi ut, vestib ulum ultrices nulla. Aliquam egestas tempor leo.</div>
+						<div class="newsletter_text">Envianos tus comentarios</div>
 					</div>
 				</div>
 			</div>
@@ -321,28 +260,20 @@
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<div class="footer_logo"><a href="#">Wish</a></div>
+					<div class="footer_logo"><a href="/">JADYD</a></div>
 					<nav class="footer_nav">
 						<ul>
-							<li><a href="index.html">home</a></li>
-							<li><a href="categories.html">clothes</a></li>
-							<li><a href="categories.html">accessories</a></li>
-							<li><a href="categories.html">lingerie</a></li>
-							<li><a href="contact.html">contact</a></li>
+							<li><a href="/">Inicio</a></li>
+							<li><a href="categories">Categorias</a></li>
+							<li><a href="product">Producto</a></li>
+							<li><a href="cart">Carrito</a></li>
+							<li><a href="contact">Contacto</a></li>
 						</ul>
 					</nav>
 					<div class="footer_social">
-						<ul>
-							<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						</ul>
+						
 					</div>
-					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+					
 				</div>
 			</div>
 		</div>

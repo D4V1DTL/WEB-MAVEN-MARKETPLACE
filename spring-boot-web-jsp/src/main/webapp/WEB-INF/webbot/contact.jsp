@@ -3,7 +3,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <html lang="en">
 <head>
-<title>Contact</title>
+<title>JADYD</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Wish shop project">
@@ -24,11 +24,11 @@
 			<div class="logo"><a href="#"><img src="webbot/images/logo.jpeg" height= "70px" width= "130px" alt="" /></a></div>
 			<nav class="main_nav">
 				<ul>
-					<li><a href="/">home</a></li>
-					<li><a href="categories">clothes</a></li>
-					<li><a href="product">accessories</a></li>
-					<li><a href="cart">lingerie</a></li>
-					<li><a href="contact">contact</a></li>
+					<li><a href="/">Inicio</a></li>
+					<li><a href="categories">Categorias</a></li>
+					<li><a href="product">Producto</a></li>
+					<li><a href="cart">Carrito</a></li>
+					<li><a href="contact">Contacto</a></li>
 				</ul>
 			</nav>
 			<div class="header_content ml-auto">
@@ -78,7 +78,7 @@
 
 	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
 		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
-		<div class="logo menu_mm"><a href="#">Wish</a></div>
+		<div class="logo menu_mm"><a href="#">JADYD</a></div>
 		<div class="search">
 			<form action="#">
 				<input type="search" class="search_input menu_mm" required="required">
@@ -87,11 +87,11 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="/">home</a></li>
-				<li class="menu_mm"><a href="categories">clothes</a></li>
-				<li class="menu_mm"><a href="product">accessories</a></li>
-				<li class="menu_mm"><a href="cart">lingerie</a></li>
-				<li class="menu_mm"><a href="contact">contact</a></li>
+				<li class="menu_mm"><a href="/">Inicio</a></li>
+				<li class="menu_mm"><a href="categories">Categorias</a></li>
+				<li class="menu_mm"><a href="product">Producto</a></li>
+				<li class="menu_mm"><a href="cart">Carrito</a></li>
+				<li class="menu_mm"><a href="contact">Contacto</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -105,11 +105,11 @@
 				<div class="col">
 					<div class="home_container">
 						<div class="home_content">
-							<div class="home_title">Contact</div>
+							<div class="home_title">Contacto</div>
 							<div class="breadcrumbs">
 								<ul>
-									<li><a href="index.html">Home</a></li>
-									<li>Contact</li>
+									<li><a href="/">Inicio</a></li>
+									<li>Contacto</li>
 								</ul>
 							</div>
 						</div>
@@ -136,16 +136,16 @@
 			<div class="row">
 				<div class="col">
 					<div class="review_form_container">
-						<div class="review_form_title">get in touch</div>
+						<div class="review_form_title">Ponte en contacto</div>
 						<div class="review_form_content">
 							<form action="#" id="review_form" class="review_form">
 								<div class="d-flex flex-md-row flex-column align-items-start justify-content-between">
-									<input type="text" class="review_form_input" placeholder="Name" required="required">
+									<input type="text" class="review_form_input" placeholder="Nombre" required="required">
 									<input type="email" class="review_form_input" placeholder="E-mail" required="required">
-									<input type="text" class="review_form_input" placeholder="Subject">
+									<input type="text" class="review_form_input" placeholder="Tema">
 								</div>
-								<textarea class="review_form_text" name="review_form_text" placeholder="Message"></textarea>
-								<button type="submit" class="review_form_button">send message</button>
+								<textarea class="review_form_text" name="review_form_text" placeholder="Mensaje"></textarea>
+								<button type="submit" class="review_form_button">Enviar mensaje</button>
 							</form>
 						</div>
 					</div>
@@ -164,7 +164,7 @@
 				<div class="col-lg-5">
 
 					<div class="contact_info">
-						<div class="contact_title">contact info</div>
+						<div class="contact_title">Información de contacto</div>
 						<div class="contact_info_content">
 							<ul>
 								<li>
@@ -181,15 +181,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="contact_info_social">
-							<ul>
-								<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
+						
 					</div>
 				</div>
 
@@ -238,11 +230,11 @@
 		<div class="newsletter_content">
 			<div class="newsletter_image" style="background-image:url(images/newsletter.jpg)"></div>
 			<div class="container">
-				<div class="row newsletter_row">
+				<div class="row">
 					<div class="col">
 						<div class="section_title_container text-center">
-							<div class="section_subtitle">only the best</div>
-							<div class="section_title">subscribe for a 20% discount</div>
+							<div class="section_subtitle">Solo lo mejor</div>
+							<div class="section_title">Suscribete para obtener un 20% de descuento</div>
 						</div>
 					</div>
 				</div>
@@ -254,7 +246,7 @@
 								<button type="submit" class="newsletter_button">subscribe</button>
 							</form>
 						</div>
-						<div class="newsletter_text">Integer ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra nec. Fusce vel lorem libero. Integer ex mi, facilisis sed nisi ut, vestib ulum ultrices nulla. Aliquam egestas tempor leo.</div>
+						<div class="newsletter_text">Envianos tus comentarios</div>
 					</div>
 				</div>
 			</div>
@@ -267,29 +259,20 @@
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<div class="footer_logo"><a href="#">Wish</a></div>
+					<div class="footer_logo"><a href="/">JADYD</a></div>
 					<nav class="footer_nav">
 						<ul>
-							<li><a href="index.html">home</a></li>
-							<li><a href="categories.html">clothes</a></li>
-							<li><a href="categories.html">accessories</a></li>
-							<li><a href="categories.html">lingerie</a></li>
-							<li><a href="contact.html">contact</a></li>
+							<li><a href="/">Inicio</a></li>
+							<li><a href="categories">Categorias</a></li>
+							<li><a href="product">Producto</a></li>
+							<li><a href="cart">Carrito</a></li>
+							<li><a href="contact">Contacto</a></li>
 						</ul>
 					</nav>
 					<div class="footer_social">
-						<ul>
-							<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						</ul>
+						
 					</div>
-					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-				</div>
+					
 			</div>
 		</div>
 	</footer>
