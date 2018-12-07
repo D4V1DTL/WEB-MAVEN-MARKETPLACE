@@ -123,7 +123,7 @@
 
 				<!-- Home Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(images/home_slider_2.jpg)"></div>
 					<div class="home_slider_content">
 						<div class="home_slider_content_inner">
 							<div class="home_slider_subtitle">Promo Prices</div>
@@ -134,7 +134,7 @@
 
 				<!-- Home Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(images/home_slider_3.jpg)"></div>
 					<div class="home_slider_content">
 						<div class="home_slider_content_inner">
 							<div class="home_slider_subtitle">Promo Prices</div>
