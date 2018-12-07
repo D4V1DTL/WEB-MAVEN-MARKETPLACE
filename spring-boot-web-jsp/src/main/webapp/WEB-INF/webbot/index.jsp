@@ -190,7 +190,7 @@
 							<img src="images/promo_1.jpg" alt="">
 							<div class="promo_content promo_content_1">
 								<div class="promo_title">-30% de descuento</div>
-								<div class="promo_subtitle">En zapatos</div>
+								<div class="promo_subtitle">En sandalias</div>
 							</div>
 						</div>
 						<div class="promo_link"><a href="#">Compra Ahora</a></div>
@@ -204,7 +204,7 @@
 							<img src="images/promo_2.jpg" alt="">
 							<div class="promo_content promo_content_2">
 								<div class="promo_title">-30% de descuento</div>
-								<div class="promo_subtitle">Botas y Botines</div>
+								<div class="promo_subtitle">En Zapatillas</div>
 							</div>
 						</div>
 						<div class="promo_link"><a href="#">Compra Ahora</a></div>
@@ -218,7 +218,7 @@
 							<img src="images/promo_3.jpg" alt="">
 							<div class="promo_content promo_content_3">
 								<div class="promo_title">-25% de descuento</div>
-								<div class="promo_subtitle">En sandalias</div>
+								<div class="promo_subtitle">En zapatos para niños</div>
 							</div>
 						</div>
 						<div class="promo_link"><a href="#">Compra Ahora</a></div>
@@ -258,7 +258,7 @@
 						</div>
 						<div class="product_content clearfix">
 							<div class="product_info">
-								<div class="product_name"><a href="product.jsp">Sandalias de Mujer</a></div>
+								<div class="product_name"><a href="product.jsp">Zapatos de Mujer</a></div>
 								<div class="product_price">S/.45.00</div>
 							</div>
 							<div class="product_options">
@@ -284,7 +284,7 @@
 						</div>
 						<div class="product_content clearfix">
 							<div class="product_info">
-								<div class="product_name"><a href="product.jsp">Botas</a></div>
+								<div class="product_name"><a href="product.jsp">Zapatillas con luz</a></div>
 								<div class="product_price">S/.35.00</div>
 							</div>
 							<div class="product_options">
@@ -310,7 +310,7 @@
 						</div>
 						<div class="product_content clearfix">
 							<div class="product_info">
-								<div class="product_name"><a href="product.jsp">Zapatos Hombre</a></div>
+								<div class="product_name"><a href="product.jsp">Tacones</a></div>
 								<div class="product_price">S/.145.00</div>
 							</div>
 							<div class="product_options">
